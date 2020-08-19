@@ -45,7 +45,7 @@ const App = (props) => {
     return anecdotes[index];
   };
 
- let mostVoteAnecdote;
+  let mostVoteAnecdote;
   if (Object.keys(votes).length > 0) {
     mostVoteAnecdote = getMostVoteAnecdote();
   }
